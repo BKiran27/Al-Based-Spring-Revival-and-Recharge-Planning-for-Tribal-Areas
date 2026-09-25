@@ -1,15 +1,15 @@
+const repoName = 'Al-Based-Spring-Revival-and-Recharge-Planning-for-Tribal-Areas';
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'standalone',
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'http://127.0.0.1:8000/api/:path*',
-      },
-    ];
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
+  basePath: isProd ? `/${repoName}` : '',
 };
 
 module.exports = nextConfig;

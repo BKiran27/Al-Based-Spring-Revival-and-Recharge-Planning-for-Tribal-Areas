@@ -1,8 +1,8 @@
 # CloudSentinel API Reference
 
-The CloudSentinel REST API runs on FastAPI with Pydantic v2 validation and Bearer JWT authentication.
+The CloudSentinel REST API runs on FastAPI with Pydantic v2 validation and Bearer JWT authentication, backed by an autonomous client-side SecOps state engine for direct GitHub Pages deployment.
 
-Interactive Swagger documentation is available locally at: `http://localhost:8000/docs`
+Full OpenAPI 3.1 specification schema is included in the backend repository.
 
 ---
 

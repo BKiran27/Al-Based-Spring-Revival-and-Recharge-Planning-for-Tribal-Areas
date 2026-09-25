@@ -5,9 +5,9 @@ Use this step-by-step presentation script during judging to demonstrate the comp
 ---
 
 ## Preparation (10 Seconds Before Judging Begins)
-1. Ensure both Backend (`http://127.0.0.1:8000`) and Frontend (`http://localhost:3000`) are running.
-2. Open your browser to: `http://localhost:3000/dashboard/demo` (Judges Demo Mode).
-3. Confirm the demo is at **Step 1: Baseline Security Posture**. If not, click **"Reset Baseline"**.
+1. Open your browser directly to the live GitHub Pages site:
+   👉 **[https://bkiran27.github.io/Al-Based-Spring-Revival-and-Recharge-Planning-for-Tribal-Areas/dashboard/demo/](https://bkiran27.github.io/Al-Based-Spring-Revival-and-Recharge-Planning-for-Tribal-Areas/dashboard/demo/)**
+2. Confirm the demo is at **Step 1: Baseline Security Posture**. If not, click **"Reset Baseline"**.
 
 ---
 
