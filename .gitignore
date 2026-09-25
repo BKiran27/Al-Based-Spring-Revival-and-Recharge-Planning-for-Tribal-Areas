@@ -1,0 +1,24 @@
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/.pytest_cache/
+backend/*.db
+backend/*.sqlite3
+backend/.env
+backend/venv/
+backend/env/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
